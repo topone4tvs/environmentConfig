@@ -1,0 +1,13 @@
+set nu
+set hlsearch
+set encoding=utf8
+set fileencoding=utf8
+set fileencodings=uft8-bom,utf8,gbk,gb2312,big5
+
+language messages zh_CN.utf-8
+
+let mapleader=";"
+nmap <leader>w :w<CR>
+nmap <leader>wq :wq<CR>
+nmap <leader>q :q<CR>
+nmap <leader>q! :q!<CR>
